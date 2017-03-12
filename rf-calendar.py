@@ -15,10 +15,10 @@ webpage = requests.get(url)
 soup = BeautifulSoup(webpage.text, 'html.parser')
 
 # set up SMS push notification
-account_sid = 'AC66a59b2331404ee94d7f18dfb910ea89'
-auth_token = '5d2414af1876540f79f4f3974d928673'
+account_sid = 'AC66a5xxxxxxxxxxxxxxxxxx'
+auth_token = '5d2414xxxxxxxxxxxxxxxxxxxxxx'
 twilio_phone_number = '+15103986060'
-my_phone_number = '+34697344688'
+my_phone_number = '+34xxxxxxxxx'
 
 
 # create regex for the word 'miami'
